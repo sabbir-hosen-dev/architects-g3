@@ -54,6 +54,10 @@ body{
 .btn-primary:hover{
   opacity: 86%;
 }
+.hide{
+  display: none;
+}
+
 
 
 /* -- nav style --  */
@@ -107,11 +111,45 @@ nav ul li a{
   margin-bottom: 25px;
 }
 
+/* features part style  */
+.features{
+  display: flex;
+  gap:50px;
+  align-items: center;
+  margin:50px auto;
+}
+.featur{
+  flex:1;
+}
+.img-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:30px;
+}
+.img-section img{
+  width: 100%;
+}
+.text-section h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.text-section p{
+  margin:30px 0px;
+}
 
 /* responsive style  */
 
 @media screen and (max-width:576px) {
   .banner-section h1{
     font-size: 40px;
+  }
+  .features{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:577px) and (max-width:992px){
+  .features{
+    flex-direction: column;
   }
 }
