@@ -149,11 +149,14 @@ nav ul li a{
   padding:30px 80px 30px 0px
 }
 .about-heading{
-  font-weight: bold;
-  font-size: 40px;
   padding-left: 20px;
   border-left: 5px solid #FF900E;
-  margin-bottom: 10px;
+
+}
+.section-heading{
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 .contents{
   padding:20px;
@@ -185,6 +188,29 @@ nav ul li a{
 .badge p{
   color:#fff;
   text-align: center;
+}
+
+/* facts part  */
+.fatchs-section{
+  margin: 50px auto;
+}
+.facts{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:20px;
+}
+.fact{
+  flex:1 1 200px;
+  max-width: 200px;
+  padding:20px;
+  border-radius: 10px;
+  border:1px solid #FF900E;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  align-items: center;
 }
 /* responsive style  */
 
